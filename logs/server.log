@@ -1,0 +1,50 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 256 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.0.140:3000/
+5:34:12 PM [vite] Pre-transform error: Failed to resolve import "./index.css" from "src/main.jsx". Does the file exist?
+5:34:12 PM [vite] Internal server error: Failed to resolve import "./index.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/main.jsx:6:7
+  5  |  import App from "./App";
+  6  |  import Test from "./Test";
+  7  |  import "./index.css";
+     |          ^
+  8  |  ReactDOM.createRoot(document.getElementById("root")).render(
+  9  |    /* @__PURE__ */ jsxDEV(React.StrictMode, { children: /* @__PURE__ */ jsxDEV(BrowserRouter, { children: /* @__PURE__ */ jsxDEV(Routes, { children: [
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
+5:34:13 PM [vite] Pre-transform error: Failed to resolve import "./index.css" from "src/main.jsx". Does the file exist?
+5:34:35 PM [vite] Pre-transform error: Failed to resolve import "./index.css" from "src/main.jsx". Does the file exist?
+5:34:36 PM [vite] Internal server error: Failed to resolve import "./index.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: /home/workspace/src/main.jsx:6:7
+  5  |  import App from "./App";
+  6  |  import Test from "./Test";
+  7  |  import "./index.css";
+     |          ^
+  8  |  ReactDOM.createRoot(document.getElementById("root")).render(
+  9  |    /* @__PURE__ */ jsxDEV(React.StrictMode, { children: /* @__PURE__ */ jsxDEV(BrowserRouter, { children: /* @__PURE__ */ jsxDEV(Routes, { children: [
+      at TransformPluginContext._formatError (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49258:41)
+      at TransformPluginContext.error (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49253:16)
+      at normalizeUrl (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64306:23)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64438:39
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:64365:7)
+      at async PluginContainer.transform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:49099:18)
+      at async loadAndTransform (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:51977:27)
+      at async viteTransformMiddleware (file:///home/workspace/node_modules/vite/dist/node/chunks/dep-D_zLpgQd.js:62105:24)
